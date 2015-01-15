@@ -100,11 +100,12 @@ var alphaG = ["nicole","michelle","Thisisthelongestword","basketball","elephant"
 function findLongestWord(x,y) {
     var longerThanY = []
     for (var i = 0; i < (alphaG.length); i++) {
-    if(x[i].length > y);
+    if(x[i].length > y)
     {longerThanY.push(x[i]);
        }
     } return longerThanY;
 }
-
 console.log(findLongestWord(alphaG,6));
+
+
 
